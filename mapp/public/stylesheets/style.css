@@ -7,11 +7,11 @@ a {
   color: #00B7FF;
 }
 
-.subunit.SCT { fill: #eee; }
-.subunit.WLS { fill: #eee; }
-.subunit.NIR { fill: #eee; }
-.subunit.ENG { fill: #eee; }
-.subunit.IRL { fill: #eee; }
+.subunit.SCT { fill: rgb(238, 238, 238); }
+.subunit.WLS { fill: rgb(238, 238, 238); }
+.subunit.NIR { fill: rgb(238, 238, 238); }
+.subunit.ENG { fill: rgb(238, 238, 238); }
+.subunit.IRL { fill: rgb(238, 238, 238); }
 
 .subunit-boundary {
   fill: none;

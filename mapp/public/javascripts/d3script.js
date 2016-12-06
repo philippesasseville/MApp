@@ -30,9 +30,6 @@ d3.json("data/uk.json", function(error, uk) {
 	    .attr("class", function(d) { return "subunit " + d.id; })
 	    .attr("d", path)
 	    .on("click", function(d){
-	    		if(this.style.fill == "rgb(238, 238, 238)")
-					this.style.fill = "rgb(255, 0, 0)";
-				else
-					this.style.fill = "rgb(238, 238, 238)";
+	    		this.style.fill = "#f00";
 			});
 });
